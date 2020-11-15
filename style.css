@@ -1,0 +1,144 @@
+#links {
+    margin: 20px;
+    position: static;
+    height: 100px;
+}
+
+#link1 {
+    text-decoration: none;
+    width: 130px;
+    position: absolute;
+    right: 11%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+}
+
+#link1:hover {
+    text-decoration: underline;
+}
+
+#link2 {
+    text-decoration: none;
+    width: 130px;
+    position: absolute;
+    right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+}
+
+#link2:hover {
+    text-decoration: underline;
+}
+
+#formContainer {
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 440px;  
+    width: 508px;
+    height: 180px;
+}
+
+#formContainerAS {
+    margin: 0 auto;
+    position: absolute;
+    top: 36%;
+    left: 440px;  
+    width: 508px;
+    height: 270px;
+}
+
+#buttonContainer {
+    position: absolute;
+    width: 508px;
+    height: 35px;
+}
+
+#buttonContainerAS {
+    position: absolute;
+    width: 508px;
+    height: 35px;
+}
+
+#inputText {
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 105%;
+    margin-bottom: 15px;
+}
+
+#inputText:hover {
+    border-color: rgb(40, 139, 196);
+}
+
+#inputButton {
+    background-color: rgb(226, 226, 226);
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(180, 180, 180);
+    position: absolute;
+    left: 100px;
+    margin: 0 auto;
+}
+
+#inputButtonAS {
+    background-color: rgb(98, 108, 248);
+    color: white;
+    height: 35px;
+    width: 170px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(47, 56, 190);
+    position: absolute;
+    left: 335px;
+    margin: 0 auto;
+}
+
+#inputButton:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#iAmLucky {
+    background-color: rgb(226, 226, 226);
+    border-color: rgb(180, 180, 180);
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    border-style: solid;
+    position: absolute;
+    left: 258px;
+    margin: 0 auto;
+}
+
+#iAmLucky:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+#googleContainer {
+    margin: unset;
+    position: absolute;
+    left: 560px;
+    top: 29%;
+}
+
+#divTextAS {
+    width: 100px;
+    position: absolute;
+    top: 27%;
+}
+
+#textAS {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 445px;
+    width: 200px;
+    font-size: 105%;
+}
+

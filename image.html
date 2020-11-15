@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Search</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body style="height: 600px; padding: 0px; margin: 0px;">
+        <div id="links">
+            <div>
+                <a href="./index.html" id="link1">Google Search</a>
+            </div>
+            <div>    
+                <a href="./advanced.html" id="link2">Advanced Search</a>
+            </div>
+        </div>
+        <div>
+            <div id="googleContainer">
+                <img src="./googlelogo_color_272x92dp.png">
+            </div>
+            <div id="formContainer">
+                <form action="https://google.com//search?" autocomplete="off">
+                    <input id="inputText" type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch">
+                    <div id="buttonContainer">
+                        <input id="inputButton" type="submit" value="Google Search" style="left: 185px;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
